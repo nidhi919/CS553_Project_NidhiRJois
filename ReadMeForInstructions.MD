@@ -33,19 +33,14 @@ compile
 test
 ```
 
-## Step 1: Generate a Graph using NetGameSim (included as submodule)
+## Step 1: Generate a Graph using NetGameSim
 
-Navigate to the NetGameSim submodule:
+1. Clone NetGameSim separately:
 ```bash
-cd netgamesim
-```
-In the sbt shell, compile and run:
-
-```bash
-compile
-run
-```
-Copy the generated .dot file to the project root.
+git clone https://github.com/0x1DOCD00D/NetGameSim.git
+cd NetGameSim
+sbt run
+Copy the generated .dot file to the project root of this repository.
 
 ## Step 2: Run Simulations
 Simple Node (Background Traffic with Edge Label Enforcement)
