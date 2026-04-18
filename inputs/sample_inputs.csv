@@ -1,0 +1,7 @@
+# Format: nodeId,messageType,payload,delayMs
+5,PING,Hello from file,2000
+10,WORK,Process this,5000
+20,GOSSIP,Broadcast news,8000
+100,CONTROL,Start algorithm,3000
+200,PING,Ping from file,10000
+0,PING,Message to timer node,1500

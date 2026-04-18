@@ -12,7 +12,9 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-serialization-jackson" % akkaVersion,
   "ch.qos.logback" % "logback-classic" % "1.4.11",
   "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test,
-  "org.scalatest" %% "scalatest" % "3.2.17" % Test
+  "org.scalatest" %% "scalatest" % "3.2.17" % Test,
+  "com.typesafe" % "config" % "1.4.2"
+
 )
 
 // Compiler options
