@@ -11,12 +11,6 @@
 - All code compiles and runs on a clean machine
 - 15 tests pass with `sbt test`
 
-## Opening the Project in IntelliJ
-1. Open IntelliJ IDEA
-2. Click **File → Open**
-3. Select the `CS553_2026` folder
-4. Wait for IntelliJ to load the project (may take 1-2 minutes)
-
 ## Using the sbt Shell in IntelliJ
 1. Open the sbt shell: **View → Tool Windows → sbt**
 2. The sbt shell will open at the bottom of IntelliJ
